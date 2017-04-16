@@ -1,0 +1,58 @@
+body{
+	background-color: #35353d;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	cursor: default;
+}
+.main{
+	height: 280px;
+	width: 800px;
+	margin:180px auto;
+	background-color: #fff;
+	box-shadow: #111 0px 5px 15px 1px;
+}
+.main .left{
+	height: 280px;
+	width: 373px;
+	background-color: blue;
+	float: left;
+}
+.main .right{
+	height: 280px;
+	width: 427px;
+	float: left;
+	background: #eee;
+}
+.main .right table{
+	margin: 50px 40px;
+}
+.main .right table .cell{
+	background-color:#246ab5 ;
+	color: white;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-right: none;
+}
+.main .right table .cell i{
+	margin-left: 5px;
+}
+.main .right table .in{
+	width: 100%;
+	height: 50px;
+	border: 1px solid #ccc;
+	border-left: none;
+	outline: none;
+	font-size: 16px;
+	text-indent: 10px;
+	letter-spacing: 2px;
+}
+.main .right .note{
+	width: 347px;
+	height: 180px;
+	margin: 50px 40px;
+	letter-spacing: 1px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-indent: 2em;
+	display: none;
+}

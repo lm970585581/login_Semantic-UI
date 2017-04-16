@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆页面设计</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css" />
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+		<script src="Semantic-UI-CSS-master/semantic.min.js" type="text/javascript"></script>
+		<script src="js/js.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div class="main">
+			<div class="left">
+				<img src="imgs/left.jpg" height="280px" />
+			</div>
+			<div class="right">
+				<table id="login" height="180px" width="347px" cellspacing="0" cellpadding="0">
+					<tr height="50">
+						<td width="50" class="cell">
+							<i class="large user icon"></i>
+						</td>
+						<td>
+							<input id="username" type="text" class="in" placeholder="用户名"/>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr height="50">
+						<td width="50" class="cell">
+							<i class="large lock icon"></i>
+						</td>
+						<td>
+							<input id="password" type="password" class="in" placeholder="密码"/>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+					</tr>
+					<tr height="50">
+						<td colspan="2" align="center">
+							<div class="ui buttons">
+								<button id="loginbtn" class="ui teal button">登录系统</button>
+								<div class="or"></div>
+								<button class="ui positive button">找回密码</button>
+							</div>
+						</td>
+					</tr>
+				</table>
+				
+				<div class="note" id="note">
+					<h2 align="center">【注意事项】</h2>
+					<p>用户成功登陆系统后需要在5分钟之内刷员工卡进入系统，否则超时之后需要您重新输入用户名和密码，请刷自己的员工卡，否则可能导致您的账号被冻结，造成不必要的麻烦，一切都是为了安全，谢谢合作！</p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
